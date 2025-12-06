@@ -1,0 +1,94 @@
+{
+    "total_numbers": 0,
+    "total_bits": 0,
+    "types": {
+        "int": {
+            "numbers": 0,
+            "bits": 0
+        },
+        "float": {
+            "numbers": 0,
+            "bits": 0
+        },
+        "double": {
+            "numbers": 0,
+            "bits": 0
+        },
+        "bytes": {
+            "numbers": 0,
+            "bits": 0
+        },
+        "string": {
+            "numbers": 0,
+            "bits": 0
+        },
+        "bits": {
+            "numbers": 0,
+            "bits": 0
+        }
+    },
+    "hw_stats": {
+        "int": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "float": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "double": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "bytes": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "string": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "bits": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        }
+    },
+    "sw_stats": {
+        "int": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "float": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "double": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "bytes": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "string": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        },
+        "bits": {
+            "entropy_sum": 0.0,
+            "compression_sum": 0.0,
+            "count": 0
+        }
+    }
+}
