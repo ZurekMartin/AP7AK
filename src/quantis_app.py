@@ -29,7 +29,7 @@ class QuantisApp:
 
         self.root = ctk.CTk()
         self.root.title("Quantis TRNG")
-        self.root.resizable(True, True)
+        self.root.resizable(False, False)
 
         self._init_state_variables()
         self._init_ui_variables()
@@ -240,7 +240,7 @@ class QuantisApp:
         self.scaling_top_row.grid_columnconfigure(1, weight=1)
 
         self.scaling_checkbox = ctk.CTkCheckBox(
-            self.scaling_top_row, text="Použít škálování",
+            self.scaling_top_row, text="Omezení rozsahu",
             variable=self.use_scaling_var, command=self.on_scaling_changed, font=self._font()
         )
         self.scaling_checkbox.grid(row=0, column=0, sticky="w", padx=(0, 5))
@@ -618,9 +618,9 @@ class QuantisApp:
         data_type = self.data_type_var.get()
 
         if data_type in NON_SCALABLE_TYPES:
-            self.scaling_checkbox.configure(state="disabled", text="Škálování není dostupné pro tento typ")
+            self.scaling_checkbox.configure(state="disabled", text="Omezení rozsahu není dostupné")
         else:
-            self.scaling_checkbox.configure(state="normal", text="Použít škálování")
+            self.scaling_checkbox.configure(state="normal", text="Omezení rozsahu")
 
         try:
             self.unsigned_checkbox.grid_forget()
